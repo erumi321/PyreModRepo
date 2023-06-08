@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HelpText lang="de">
+	<Text Id="MusicScavengersTheme_MC" DisplayName="Unbeugsam" Description="Du hörst die Melodie der maskierten Wanderer Hedwyn, Jodariel and Rukey. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicScavengersTheme_MC_Tooltip" DisplayName="Musik: Unbeugsam" Description="Du hörst die Melodie der maskierten Wanderer Hedwyn, Jodariel and Rukey. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicMaeTheme_MC" DisplayName="Mondwandlerin" Description="Du hörst die Melodie von {$CharPsycho.ShortName}. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicMaeTheme_MC_Tooltip" DisplayName="Musik: Mondwandlerin" Description="Du hörst die Melodie von {$CharPsycho.ShortName}. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicImpTheme_MC" DisplayName="Flatterflug" Description="Du hörst die Melodie von Ti'zo. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicImpTheme_MC_Tooltip" DisplayName="Musik: Flatterflug" Description="Du hörst die Melodie von Ti'zo. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicGilmanTheme_MC" DisplayName="Mission Ehre" Description="Du hörst die Melodie von Sir Gilman. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicGilmanTheme_MC_Tooltip" DisplayName="Musik: Mission Ehre" Description="Du hörst die Melodie von Sir Gilman. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicPamithaTheme_MC" DisplayName="Blitzende Krallen" Description="Du hörst die Melodie von Pamitha. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicPamithaTheme_MC_Tooltip" DisplayName="Musik: Blitzende Krallen" Description="Du hörst die Melodie von Pamitha. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicVolfredTheme_MC" DisplayName="Sicherer Plan" Description="Du hörst die Melodie von Wolfred. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicVolfredTheme_MC_Tooltip" DisplayName="Musik: Sicherer Plan" Description="Du hörst die Melodie von Wolfred. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBertrudeTheme_MC" DisplayName="Schlangenseele" Description="Du hörst die Melodie von Bertrude. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBertrudeTheme_MC_Tooltip" DisplayName="Musik: Schlangenseele" Description="Du hörst die Melodie von Bertrude. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBardTheme_MC" DisplayName="Der Herold" Description="Du hörst die Melodie des einsamen Barden. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBardTheme_MC_Tooltip" DisplayName="Musik: Der Herold" Description="Du hörst die Melodie des einsamen Barden. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	
+	<Text Id="MusicAscensionMatchMusic1_MC" DisplayName="Altes Auf Nimmerwidersehen" Description="Du hörst die alte Melodie der Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusic1_MC_Tooltip" DisplayName="Musik: Altes Auf Nimmerwidersehen" Description="Du hörst die alte Melodie der Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicAccusers_MC" DisplayName="Auf Nimmerwidersehen Ankläger" Description="Du hörst die Melodie der Ankläger in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicAccusers_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Ankläger" Description="Du hörst die Melodie der Ankläger in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicFate_MC" DisplayName="Auf Nimmerwidersehen Ergebene" Description="Du hörst die Melodie der Ergebenen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicFate_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Ergebene" Description="Du hörst die Melodie der Ergebenen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicDissidents_MC" DisplayName="Auf Nimmerwidersehen Abweichler" Description="Du hörst die Melodie der Abweichler in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicDissidents_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Abweichler" Description="Du hörst die Melodie der Abweichler in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicWithdrawn_MC" DisplayName="Auf Nimmerwidersehen Zurückgezogene" Description="Du hörst die Melodie der Zurückgezogenen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicWithdrawn_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Zurückgezogene" Description="Du hörst die Melodie der Zurückgezogenen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicPyrehearts_MC" DisplayName="Auf Nimmerwidersehen Feuerherzen" Description="Du hörst die Melodie der Feuerherzen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicPyrehearts_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Feuerherzen" Description="Du hörst die Melodie der Feuerherzen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicEssence_MC" DisplayName="Auf Nimmerwidersehen Absolute" Description="Du hörst die Melodie der Absoluten in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicEssence_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Absolute" Description="Du hörst die Melodie der Absoluten in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicChastity_MC" DisplayName="Auf Nimmerwidersehen Sittsame" Description="Du hörst die Melodie der Sittsamen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicChastity_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Sittsame" Description="Du hörst die Melodie der Sittsamen in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicTempers_MC" DisplayName="Auf Nimmerwidersehen Wütende" Description="Du hörst die Melodie der Wütenden in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicTempers_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Wütende" Description="Du hörst die Melodie der Wütenden in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicNightwings_MC" DisplayName="Auf Nimmerwidersehen Nachtfalken" Description="Du hörst die Melodie der Nachtfalken in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicNightwings_MC_Tooltip" DisplayName="Musik: Auf Nimmerwidersehen Nachtfalken" Description="Du hörst die Melodie der Nachtfalken in den Befreiungsriten. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+</HelpText>

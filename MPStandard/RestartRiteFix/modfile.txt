@@ -1,0 +1,3 @@
+To "Scripts/MPScripts.lua"
+Import "RestartRiteFix.lua"
+Load Priority 200

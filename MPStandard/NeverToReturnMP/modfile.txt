@@ -1,0 +1,14 @@
+To "Scripts/AudioScripts.lua"
+Import "AdjustedMusicTable.lua"
+
+To "Scripts/MatchScripts.lua"
+Import "NeverToReturnMP.lua"
+
+To "Scripts/Campaign.lua"
+Import "NeverToReturnMP.lua"
+
+To "Game/Text/HelpText.en.xml"
+Add XML "AdditionalMusicTooltips.en.xml"
+
+To "Game/Text/HelpText.de.xml"
+Add XML "AdditionalMusicTooltips.de.xml"

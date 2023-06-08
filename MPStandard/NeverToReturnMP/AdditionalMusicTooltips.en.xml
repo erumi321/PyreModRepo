@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HelpText lang="en">
+	<Text Id="MusicScavengersTheme_MC" DisplayName="Surviving Exile" Description="You shall hear the theme of the masked wanderers, Hedwyn, Jodariel and Rukey. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicScavengersTheme_MC_Tooltip" DisplayName="Music: Surviving Exile" Description="You shall hear the theme of the masked wanderers, Hedwyn, Jodariel and Rukey. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicMaeTheme_MC" DisplayName="Moon-Touched" Description="You shall hear the theme of {$CharPsycho.ShortName}. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicMaeTheme_MC_Tooltip" DisplayName="Music: Moon-Touched" Description="You shall hear the theme of {$CharPsycho.ShortName}. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicImpTheme_MC" DisplayName="Flutter Fly" Description="You shall hear the theme of Ti'zo. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicImpTheme_MC_Tooltip" DisplayName="Music: Flutter Fly" Description="You shall hear the theme of Ti'zo. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicGilmanTheme_MC" DisplayName="Quest for Honor" Description="You shall hear the theme of Sir Gilman. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicGilmanTheme_MC_Tooltip" DisplayName="Music: Quest for Honor" Description="You shall hear the theme of Sir Gilman. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicPamithaTheme_MC" DisplayName="Talon Sheath" Description="You shall hear the theme of Pamitha. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicPamithaTheme_MC_Tooltip" DisplayName="Music: Talon Sheath" Description="You shall hear the theme of Pamitha. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicVolfredTheme_MC" DisplayName="Certain Plan" Description="You shall hear the theme of Volfred. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicVolfredTheme_MC_Tooltip" DisplayName="Music: Certain Plan" Description="You shall hear the theme of Volfred. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBertrudeTheme_MC" DisplayName="Snake Soul" Description="You shall hear the theme of Bertrude. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBertrudeTheme_MC_Tooltip" DisplayName="Music: Snake Soul" Description="You shall hear the theme of Bertrude. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBardTheme_MC" DisplayName="The Herald" Description="You shall hear the theme of The Lone Minstrel. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicBardTheme_MC_Tooltip" DisplayName="Music: The Herald" Description="You shall hear the theme of The Lone Minstrel. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	
+	<Text Id="MusicAscensionMatchMusic1_MC" DisplayName="Old Never to Return" Description="You shall hear the old theme of the Liberation Rites. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusic1_MC_Tooltip" DisplayName="Music: Old Never to Return" Description="You shall hear the old theme of the Liberation Rites. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicAccusers_MC" DisplayName="Never to Return Accusers" Description="You shall hear the Liberaton Rite theme of the Accusers. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicAccusers_MC_Tooltip" DisplayName="Music: Never to Return Accusers" Description="You shall hear the Liberaton Rite theme of the Accusers. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicFate_MC" DisplayName="Never to Return Fate" Description="You shall hear the Liberaton Rite theme of the Fate. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicFate_MC_Tooltip" DisplayName="Music: Never to Return Fate" Description="You shall hear the Liberaton Rite theme of the Fate. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicDissidents_MC" DisplayName="Never to Return Dissidents" Description="You shall hear the Liberaton Rite theme of the Dissidents. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicDissidents_MC_Tooltip" DisplayName="Music: Never to Return Dissidents" Description="You shall hear the Liberaton Rite theme of the Dissidents. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicWithdrawn_MC" DisplayName="Never to Return Withdrawn" Description="You shall hear the Liberaton Rite theme of the Withdrawn. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicWithdrawn_MC_Tooltip" DisplayName="Music: Never to Return Withdrawn" Description="You shall hear the Liberaton Rite theme of the Withdrawn. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicPyrehearts_MC" DisplayName="Never to Return Pyrehearts" Description="You shall hear the Liberaton Rite theme of the Pyrehearts. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicPyrehearts_MC_Tooltip" DisplayName="Music: Never to Return Pyrehearts" Description="You shall hear the Liberaton Rite theme of the Pyrehearts. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicEssence_MC" DisplayName="Never to Return Essence" Description="You shall hear the Liberaton Rite theme of the Essence. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicEssence_MC_Tooltip" DisplayName="Music: Never to Return Essence" Description="You shall hear the Liberaton Rite theme of the Essence. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicChastity_MC" DisplayName="Never to Return Chastity" Description="You shall hear the Liberaton Rite theme of the Chastity. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicChastity_MC_Tooltip" DisplayName="Music: Never to Return Chastity" Description="You shall hear the Liberaton Rite theme of the Chastity. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicTempers_MC" DisplayName="Never to Return Tempers" Description="You shall hear the Liberaton Rite theme of the Tempers. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicTempers_MC_Tooltip" DisplayName="Music: Never to Return Tempers" Description="You shall hear the Liberaton Rite theme of the Tempers. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicNightwings_MC" DisplayName="Never to Return Nightwings" Description="You shall hear the Liberaton Rite theme of the Nightwings. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+	<Text Id="MusicAscensionMatchMusicNightwings_MC_Tooltip" DisplayName="Music: Never to Return Nightwings" Description="You shall hear the Liberaton Rite theme of the Nightwings. \n \n {$Keywords.Instruction_Toggle_Generic}"/>
+</HelpText>
