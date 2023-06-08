@@ -1,0 +1,30 @@
+<Weapons>
+		<Weapon
+		Name="CastPhantom"
+		InheritFrom="CastMedium"
+		Projectile="CastPhantom"
+		NumProjectiles="13"
+		BarrelLength="75"
+		ChargeRangeMultiplier="5.0"
+		MinChargeToFire="0.05"  
+		ChargeTime="0.1"
+		>
+		<Upgrade Name="PhantomFartherCastSkill" >
+			<Change ValueChangeType="MULTIPLY"  Range="1.25"  />
+		</Upgrade>
+		<Upgrade Name="PhantomLingerAuraSkill" PassAlong="true" >
+			<Change ValueChangeType="MULTIPLY"  FluidDuration="1.25"  />
+		</Upgrade>
+	</Weapon>
+	<Weapon Name="SprintPhantom"  InheritFrom="1_BasePlayerVerySlowWeapon"  NoAmmoSound="/SFX/Match SFX/OutOfAmmo2"  Type="BLINK"  SlotType="FOURTH"  ControlName="Sprint"  ChargeTime="0.05"  Cooldown="0.85"  ChargeFx="null"  ChargeGraphic="PlayerMediumMovementRun"  FireGraphic="PlayerMediumSkid" FireFx="PyrePlungeDark" StaminaCost="25"  DisableOwnerForDuration="0"  ArsenalCooldown="0.0"  Projectile="SprintTree"  ChargeSound="null"  FireSound="null"  FireSound2="null"  BarrelLength="0"  CancelMovement="false"  FullyAutomatic="true"  FireOnSelect="false"  CanFireWithAttached="true"  AutoLock="false"  ShowFreeAimLine="true"  ManualAiming="false"  TargetReticleAnimation="null"  FireOnRelease="false"  LockTriggerForCharge="true"  CanInterrupt="true"  ForceIndirectMoveInput="true"  BlockMoveInput="true"  CooldownContinuousWeapon="0.1"  ControlHelpTextId="Controls_Sprint_Tree" >
+	</Weapon>
+	<Projectile Name="CastPhantom"  InheritFrom="CastBase"  Range="110.0"  Speed="1100.0"  DamageRadius="34"  FluidDuration="1.5" >
+
+	</Projectile>
+	<Weapon 
+	Name="JumpPhantom"  
+	InheritFrom="JumpImp" 
+	ChargeGraphic="PlayerMediumEvade"  FireGraphic="PyrePlungeDark"  TriggerReleaseGraphic="PlayerMediumEvade"
+	SelfVelocityCap="540" >
+	</Weapon>
+</Weapons>

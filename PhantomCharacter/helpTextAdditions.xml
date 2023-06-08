@@ -1,0 +1,24 @@
+<HelpText>
+<Text Id="Phantom_Cast" DisplayName="Blast" Description="Fires {$Char.PronounPos} Aura in a wide short blast." AdditionalDescription=" "/>
+<Text Id="Phantom_Jump" DisplayName="Hover" Description="Turn into a cloud and hover in the air" AdditionalDescription=" "/>
+<Text Id="Phantom_Rush" DisplayName="Blink" Description="Blink foward" AdditionalDescription=" "/>
+<Text Id="Phantom_Pyre" DisplayName="" Description="Reduces {$Char.PronounPos} adversaries' flame by {$Char.ScoreValue}{!Icons.ScoreValue} each time." AdditionalDescription=" "/>
+
+<Text Id="PlayerPhantom" DisplayName="phantom" Description="Dead exiles that held a special connection to the rites." AdditionalDescription=" "/>
+<Text Id="PlayerPhantom_Old" DisplayName="phantom" Description="Phantoms tend to be melee fighters, not caring for their lives as they are already lost. \n \n {#TooltipBold}Cast: {#TooltipText}Throws Aura in a fast wedge shape. \n {#TooltipBold}Jump: {#TooltipText}High-jumps over obstacles, rival Auras. \n {#TooltipBold}Rush: {#TooltipText}Runs much faster for a short time. \n {#TooltipBold}Pyre: {#TooltipText}Puts out 20% of the flame at a time." AdditionalDescription=" "/>
+<Text Id="PlayerPhantom_Cap" InheritFrom="PlayerPhantom" DisplayName="Phantom"/>
+
+<Text Id="PlayerPhantomA" DisplayName="Ways of the Arch" Description="Rites Masteries enhancing a Phantom's damaging abilites."/>
+
+	<Text Id="PhantomFartherCastSkill" DisplayName="Ghostly Touch" Description="When casting, the aura is thrown further away." AdditionalDescription=" "/>
+	<Text Id="PhantomStealEnemyGlory" DisplayName="Passing Gifts" Description="Deals an additional 3 damage for every enemy banished." AdditionalDescription=" "/>
+	<Text Id="PhantomLingerAuraSkill" DisplayName="Lingering Memories" Description=" Doubles the time that the aura lingers for." AdditionalDescription=" "/>
+	<Text Id="PhantomBanishFall" DisplayName="Descent of the Reaper" Description="Falling on enemies banishes them." AdditionalDescription=" "/>
+	<Text Id="PlayerPhantomB" DisplayName="Lessons in Death" Description="Rites Masteries allowing the Phantom to be useful in banishment"/>
+
+	<Text Id="PhantomHalfRespawnTimeSkill" DisplayName="Passing Lesson" Description="When banished all of the Phantom's allies respawn timer is cut in half." AdditionalDescription=" "/>
+	<Text Id="PhantomStaminaDeadSkill" DisplayName="Unearthly Possesion" Description="When banished all allies briefly gain infinite stamina." AdditionalDescription=" "/>
+	<Text Id="PhantomStunBanisherSkill" DisplayName="Tortured Death" Description=" When banished the banisher is stunned for 3 seconds" AdditionalDescription=" "/>
+	<Text Id="PhantomTauntSwapStatusSkill" DisplayName="Eye for an Eye" Description="Once per round the Phantom can salute to revive a random ally, and banish a random enemy. \n\n {#StatusText} Press {TA} to Salute during a Rite." AdditionalDescription=" "/>
+
+</HelpText>

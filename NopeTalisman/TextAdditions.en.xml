@@ -1,0 +1,3 @@
+<HelpText>
+	<Text Id="OnDeathStunItem" DisplayName="Obsidian Shard" Description="{#TooltipSubHeader}{$Keywords.PassiveUpgrade} \n \n {#StatusText} Effect: {#NeutralText} After being banished, the bearer will breifly stun the opponent." AdditionalDescription="Born and bound to this place, it tries to prevent you from leaving."/>
+</HelpText>

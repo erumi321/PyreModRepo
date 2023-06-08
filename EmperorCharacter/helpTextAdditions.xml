@@ -1,0 +1,24 @@
+<HelpText>
+<Text Id="Emperor_Cast" DisplayName="Blast" Description="Fires {$Char.PronounPos} Aura in a wedge-shaped pattern." AdditionalDescription=""/>
+<Text Id="Emperor_Jump" DisplayName="Stomp" Description="A large blast that knocks allies and enemies away" AdditionalDescription=""/>
+<Text Id="Emperor_Rush" DisplayName="Sprint" Description="Runs much faster for a short time." AdditionalDescription=""/>
+<Text Id="Emperor_Pyre" DisplayName="" Description="Reduces {$Char.PronounPos} adversaries' flame by {$Char.ScoreValue}{!Icons.ScoreValue} each time." AdditionalDescription=""/>
+
+<Text Id="PlayerEmperor" DisplayName="two-faced" Description="Noble folk cast from the {$Keywords.Commonwealth}, and stripped of name, home, and their most important aspect: title." AdditionalDescription="They came from all directions, toward the {$Keywords.Commonwealth}, where at last they settled, some of them."/>
+<Text Id="PlayerEmperor_Old" DisplayName="two-faced" Description="Emperors tend to be leaning in one direction or another, giving or taking. \n \n {#TooltipBold}Cast: {#TooltipText}Throws Aura in a fast wedge shape. \n {#TooltipBold}Jump: {#TooltipText}High-jumps over obstacles, rival Auras. \n {#TooltipBold}Rush: {#TooltipText}Runs much faster for a short time. \n {#TooltipBold}Pyre: {#TooltipText}Puts out 20% of the flame at a time." AdditionalDescription="A man or woman exiled from the Commonwealth is stripped of name, home, and title."/>
+<Text Id="PlayerEmperor_Cap" InheritFrom="PlayerEmperor" DisplayName="Two-Faced"/>
+
+<Text Id="PlayerEmperorA" DisplayName="Tyranical Rule" Description="Rites Masteries enhancing a Emperor's abilites while reducing allies abilites. \n \n {#FlavorText} It's a shame one of you will go free. For you all deserve each other."/>
+
+	<Text Id="EmperorTeamBanishUpSkill" DisplayName="Grave Desecration" Description="{$SelectedCharacter.ShortName} gains +3 {$Keywords.PlayerAttributeSpeed_Desc} and {$Keywords.PlayerAttributeAura_Desc} for each allied exile banished." AdditionalDescription="We are one with the Emperor, our souls are joind in his will."/>
+	<Text Id="EmperorStealSpeedSkill" DisplayName="Labor Explotation" Description="{$SelectedCharacter.ShortName} has +6 {$Keywords.PlayerAttributeSpeed_Desc}. His teammates have -30% Stamina ." AdditionalDescription="Question: What has the Emperor ever done for me? \n Answer: What have you ever done for the Emperor?"/>
+	<Text Id="EmperorBallStaminaSkill" DisplayName="Forced Donations" Description=" Whenever {$SelectedCharacter.ShortName} is passed the orb, he gets unlimited stamina for 2 seconds." AdditionalDescription="The lot of courage and strength is to be sacrificed on the altar of battle."/>
+	<Text Id="EmperorHeadwindsTauntSkill" DisplayName="Cruel Tyranny" Description="Up to three times per Rite the Tyrant can use his Salute to make enemies unable to use their skills, cast, or jump.\n\n {#StatusText} Press {TA} to Salute during a Rite." AdditionalDescription="Is it better to die for the Emperor then too live for yourself."/>
+	<Text Id="PlayerEmperorB" DisplayName="Charitable Rule" Description="Rites Masteries enhancing a Emperor's teamate's abilites while reducing the Emperor's abilites. \n \n {#FlavorText} Do not sit and wait for a savior to come, be the savior for the people in despair."/>
+
+	<Text Id="EmperorDamageDownSkill" DisplayName="Long Nights" Description="Enemies deal -5 damage to {$SelectedCharacter.ShortName} Pyre while he’s not banished." AdditionalDescription="There is only the Emperor, and he is our Shield and Protector."/>
+	<Text Id="EmperorTeamStaminaUpSkill" DisplayName="Invigorating Speech" Description="{$SelectedCharacter.ShortName}'s allies gain +30% more stamina." AdditionalDescription="We are tested, and we do not break. We will never fall!"/>
+	<Text Id="EmperorTeamBallStaminaSkill" DisplayName="From the Coffers" Description=" Whenever {$SelectedCharacter.ShortName} passes the orb, all allies gets unlimited stamina for 2 seconds." AdditionalDescription="You novices are all alike. And I'm the one who has to put you back together. It isn't combat I resent, Brother. It's the thirst for glory that gets men stray from the path."/>
+	<Text Id="EmperorTeamReviveSkill" DisplayName="Ancestral Heritage" Description="Three times per Rite {$SelectedCharacter.ShortName} can use his Salute to resummon all of his dead allies.\n\n {#StatusText} Press {TA} to Salute during a Rite." AdditionalDescription="Do not fail your Brothers. Though their bodies die, their spirit must return to the Scribes. That is your charge."/>
+
+</HelpText>

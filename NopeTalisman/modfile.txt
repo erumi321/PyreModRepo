@@ -1,0 +1,5 @@
+Import "NopeTalisman.lua"
+To "Scripts/MatchScripts.lua"
+Import "DeathEffect.lua"
+To "Game/Text/HelpText.en.xml"
+Add XML "TextAdditions.en.xml"

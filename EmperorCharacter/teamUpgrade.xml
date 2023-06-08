@@ -1,0 +1,1052 @@
+<Npcs>
+	<Npc></Npc>
+	<Npc
+		Name="_PlayerUnit"
+		InheritFrom="1_BasePlayerUnit"
+		MoveGraphic="PlayerMediumWalk"
+		StopGraphic="PlayerMediumStop"
+		Speed="200"
+		CarryingSpeedModifier="1"
+		BackpedalSpeedModifier="0.34"
+		RotationSpeed="216000"
+		CosmeticRotationSpeed="1340"
+		VisionRange="1000"
+		IgnoreTargetCollision="false"
+		OnHitWeapon="null"
+		Magnetism="0"
+		ChargeRumble="0.125"
+		FriendlyFx="null"
+		DormantOnDeath="true"
+		LifeStealMinInterval="0"
+		OnKillWeapon="PlayerOnKillWeapon"
+		OnSpikeWeapon="AuraSpikeMedium"
+		OnSpawnWeapon="RespawnWeapon"
+		AirborneWeapon="RushSelfVerticalWeapon"
+		ContinuousWeapon="null"
+		MotionBlurMaxOpacity="0.15"
+		MotionBlurMinOpacity="0.05"
+		MotionBlurLocations="8"
+		MotionBlurInterval="0.01"
+		AutoLockable="true"
+		CollideWithUnits="true"
+		MaxUseZ="9999"
+		MinPassAngle="10"
+		PassTime="3"
+		RePassFraction="0.1"
+		NoPassSound="/SFX/Match 
+		SFX/OutOfAmmo"
+		UseReach="0"
+		MaxStamina="100"
+		StaminaRegen="100"
+		StaminaRegenDelay="1.5"
+		FluidMomentum="0"
+		FluidGrip="0"
+		FluidDrag="0"
+		>
+
+		<Thing
+			Graphic="PlayerMediumFrame"
+			FidgetIntervalMin="10.0"
+			FidgetIntervalMax="16.0"
+			Grip="500"
+			Gravity="8000"
+			TerminalVelocity="5000"
+			FallSound="Falling"
+			Width="104"
+			Height="64"
+			OverheadOffset="150"
+			OnTouchdownFxAnim="null"
+			TouchdownSound="null"
+			TouchdownRumbleIntensity="0.4"
+			TouchdownRumbleDuration="0.15"
+			TouchdownScreenShake="0"
+			OcclusionOutlineRed="0.29"
+			OcclusionOutlineGreen="1.0"
+			OcclusionOutlineBlue="0.71"
+			OcclusionOutlineRadius="0.01"
+			OcclusionOutlineThreshold="0.5"
+			OcclusionOutlineDelay="-2.0"
+			OcclusionOutlineOpacity="0.0"
+			OcclusionOutlineFadeSpeed="0.1"
+			MaxImpactForce="18000"
+			SelectionWidth="150"
+			SelectionHeight="270"
+			>
+
+			<Point
+				X="16"
+				Y="24"
+			/>
+
+			<Point
+				X="48"
+				Y="8"
+			/>
+
+			<Point
+				X="48"
+				Y="-8"
+			/>
+
+			<Point
+				X="16"
+				Y="-24"
+			/>
+
+			<Point
+				X="-16"
+				Y="-24"
+			/>
+
+			<Point
+				X="-48"
+				Y="-8"
+			/>
+
+			<Point
+				X="-48"
+				Y="8"
+			/>
+
+			<Point
+				X="-16"
+				Y="24"
+			/>
+
+		</Thing>
+
+		<Life
+			Health="1"
+			HealthRegen="0"
+			HealthRegenDelay="0.0"
+			AllowRegenWhileDisabled="false"
+			LowHealthThreshold="0.2"
+			LowHealthSound="null"
+			DeathGraphic="PlayerMediumBanished"
+			PreReviveAnimation="PlayerMediumRespawn"
+			ReviveFx="RespawnFlashFront"
+			ReviveFx2="RespawnFlashBack"
+			ReviveFxScale="1.0"
+			DeathSound="/SFX/Match 
+			SFX/PlayerKilledNEW"
+			Decal="null"
+			OverPitDecal="null"
+			HealthMeterOpacity="0.0"
+			HealthMeterFalloffSpeed="0.34"
+			HitSound="/SFX/Leftovers/PlayerOnHit"
+			SkipHitSoundOnDeath="true"
+			ReflectionCooldown="0.0"
+			ReflectionShieldHealth="999999.0"
+			ReflectionSpread="0"
+			ReflectionSpeedMultiplier="1.55"
+			ReflectionChangeOwner="true"
+			ProjectileHealModifier="0.1"
+			ProjectileHealCap="0.1"
+			ShowCritFx="false"
+			DeathShakeSpeed="250"
+			DeathShakeDistance="5"
+			>
+
+		</Life>
+
+		<Weapon
+			Name="AuraKillDetonate"
+		/>
+
+		<Weapon
+			Name="OnDeathExplosionItem"
+		/>
+
+		<Upgrade
+			Name="AscensionReMatchUpgrade"
+			HelpTextId="AscensionReMatchUpgrade"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				Speed="1.5"
+			/>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				MaxStamina="1.5"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="SpeedTest"
+			HelpTextId="Heal_Passive"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Reflection="1.0"
+			/>
+
+			<Change
+				ValueChangeType="ADD"
+				Scale="1.0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="ClipSizeSkill"
+			HelpTextId="ClipSizeSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="ClipSizeSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="ProjectileSpeedSkill"
+			HelpTextId="ProjectileSpeedSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="ProjectileSpeedSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="RangeSkill"
+			HelpTextId="RangeSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="RangeSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="ReloadSkill"
+			HelpTextId="ReloadSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="ReloadSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="ChargeSkill"
+			HelpTextId="ChargeSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="ChargeSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="AuraChargeSkill"
+			HelpTextId="AuraChargeSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="AuraChargeSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="AuraDurationSkill"
+			HelpTextId="AuraDurationSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="AuraDurationSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="AuraLinkSkill"
+			HelpTextId="AuraLinkSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="AuraLinkSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="AuraPowerSkill"
+			HelpTextId="AuraPowerSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="AuraPowerSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="TopSpeedBonusSkill"
+			HelpTextId="TopSpeedBonusSkill"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				TopSpeedBonus="75"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="TossChargeSkill"
+			HelpTextId="TossChargeSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="TossDistanceSkill"
+			HelpTextId="TossChargeSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="NoMoveCurse"
+			HelpTextId="NoCarrySkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				CarryingSpeedModifier="0.0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CarrySkill"
+			HelpTextId="CarrySkill"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				CarryingSpeedModifier="0.0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CarrySkill01"
+			HelpTextId="CarrySkill01"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				CarryingSpeedModifier="0.02"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CarrySkill02"
+			HelpTextId="CarrySkill02"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				CarryingSpeedModifier="0.04"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CarrySkill03"
+			HelpTextId="CarrySkill03"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				CarryingSpeedModifier="0.06"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CarrySkill04"
+			HelpTextId="CarrySkill04"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				CarryingSpeedModifier="0.08"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CarrySkill05"
+			HelpTextId="CarrySkill05"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				CarryingSpeedModifier="0.10"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="OnKillBuffSpeed01"
+			HelpTextId="OnKillBuffSpeed01"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				OnKillWeapon="OnKillBuffSpeed01"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="OnKillBuffSpeed02"
+			HelpTextId="OnKillBuffSpeed02"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				OnKillWeapon="OnKillBuffSpeed02"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="OnKillBuffSpeed03"
+			HelpTextId="OnKillBuffSpeed03"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				OnKillWeapon="OnKillBuffSpeed03"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="OnKillBuffSpeed04"
+			HelpTextId="OnKillBuffSpeed04"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				OnKillWeapon="OnKillBuffSpeed04"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="OnKillBuffSpeed05"
+			HelpTextId="OnKillBuffSpeed05"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				OnKillWeapon="OnKillBuffSpeed05"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="TeamBallSkill"
+			HelpTextId="TeamBallSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				CarryingSpeedModifier="1.10"
+			/>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				PassTime="0.5"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="TeamStaminaRechargeSkill"
+			HelpTextId="TeamStaminaRechargeSkill"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				StaminaRegen="100"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="PassSkill"
+			HelpTextId="PassSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				PassTime="0.5"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="ThrowSkill"
+			HelpTextId="ThrowSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="ThrowSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="BountySkill"
+			HelpTextId="BountySkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="BountySkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="InvincibleBallSkill"
+			HelpTextId="InvincibleBallSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="InvincibleBallSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="RetaliateWeaponSkill"
+			HelpTextId="RetaliateWeaponSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="RetaliateWeaponSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="ReflectSkill"
+			HelpTextId="ReflectSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				Reflection="1.0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="SprintCostSkill"
+			HelpTextId="SprintCostSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="SprintCostSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Magnetism"
+			HelpTextId="Magnetism"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Magnetism="5"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="StaminaOnBallPickup"
+			HelpTextId="StaminaOnBallPickup"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Magnetism="0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="StaminaRegenerationSkill"
+			HelpTextId="StaminaRegenerationSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				StaminaRegen="1.25"
+			/>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				StaminaRegenDelay="0.75"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="SpreadWeaponSkill"
+			HelpTextId="SpreadWeaponSkill"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="SpreadWeaponSkill"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="PowerUpAura"
+			HelpTextId="PowerUpAura"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="PowerUpAura"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="PowerDownAura"
+			HelpTextId="PowerDownAura"
+			>
+
+			<Change
+				ValueChangeType="ABSOLUTE"
+				ApplyToAllWeapons="PowerDownAura"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="CrazyBall"
+			HelpTextId="TeamPassSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				PassTime="3"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_1"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_2"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="20"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_3"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="40"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_4"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="60"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_5"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="80"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_6"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="100"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_7"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="120"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_8"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="140"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_9"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="160"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Resistance_10"
+			HelpTextId="Status_Resistance"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Health="180"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_1"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_2"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_3"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_4"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_5"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_6"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_7"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_8"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_9"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Aura_10"
+			HelpTextId="Status_Aura"
+			>
+
+			<Change
+				ApplyToAllWeapons="true"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Speedy"
+			HelpTextId="Trait_Speedy"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				Speed="2.0"
+			/>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				RotationSpeed="0.5"
+			/>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				CosmeticRotationSpeed="0.5"
+			/>
+
+			<Change
+				ValueChangeType="ADD"
+				Acceleration="100"
+			/>
+
+			<Change
+				ValueChangeType="ADD"
+				Deceleration="100"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Hot"
+			HelpTextId="Status_Hot"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				Speed="2"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Cold"
+			HelpTextId="Status_Cold"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				Speed="0.75"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="BetterStart"
+			HelpTextId="Status_BetterStart"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				Speed="1.0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Shieldy"
+			HelpTextId="Trait_Shieldy"
+			>
+
+			<Change
+				ValueChangeType="ADD"
+				Reflection="1.0"
+			/>
+
+		</Upgrade>
+
+		<Upgrade
+			Name="Enraged"
+			HelpTextId="Trait_Speedy"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				Speed="1.75"
+			/>
+
+		</Upgrade>
+		<Upgrade
+			Name="EmperorStealSpeedSkill"
+			HelpTextId="TeamBallSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				MaxStamina="0.7"
+			/>
+
+		</Upgrade>
+		<Upgrade
+			Name="EmperorTeamStaminaUpSkill"
+			HelpTextId="TeamBallSkill"
+			>
+
+			<Change
+				ValueChangeType="MULTIPLY"
+				MaxStamina="1.3"
+			/>
+
+		</Upgrade>
+		<PlayerUnitData
+			MinMoveDistance="8"
+			ReticleMoveSpeed="1800"
+			ReticleMagnetismDistance="100"
+			ReticleMagnetismSpeed="1000"
+			ReticleReMagnetizeTimeout="1.0"
+			ReticleMoveDelay="0.0"
+			GainControlSound="null"
+			GainControlVfx="SelectionStarFlash"
+			MaskHue="40"
+			MaskHue2="38"
+			PhantomOutlineWidth="0"
+			PhantomGradientTop="0"
+			PhantomGradientBottom="1"
+			NonActiveFaceNearestEnemy="false"
+			CanAutoLock="true"
+			>
+
+			<PhantomOutlineColor
+				Red="1"
+				Green="1"
+				Blue="1"
+			/>
+
+		</PlayerUnitData>
+
+	</Npc>
+</Npcs>

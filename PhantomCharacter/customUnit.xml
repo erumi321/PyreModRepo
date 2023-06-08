@@ -1,0 +1,50 @@
+<Npcs>
+	<Npc
+		Name="PlayerPhantom"
+		InheritFrom="_PlayerUnit"
+		Portrait="Portrait_Demon_Masked_F_01_Small"
+		Speed="200"
+		CosmeticRotationSpeed="1072"
+		StaminaMeterScale="1.25"
+		MoveGraphic="PlayerMediumWalk"
+		StopGraphic="PlayerMediumStop"
+		PassAnimation="PlayerMediumPassing"
+		ReceiveAnimation="PlayerMediumReceiving"
+		StaminaRegenDelay="1.5"
+		OnSpikeWeapon="AuraSpikeMedium"
+		ThrowWeapon="BallTossMedium"
+		AirborneWeapon="RushSelfVerticalWeapon"
+		ContinuousWeapon="ResetAura"
+		BallPath="PathNomad"
+		FluidMomentum="0"
+		FluidGrip="0"
+		AttachmentTargetMarker="Ball_TRACKING"
+		AttachmentTargetMarkerOffsetZ="150"
+		MoveWithVelocity="true"
+		TouchdownVelocityRetention="0.7"
+		FullControlVelocityThreshold="400"
+		>
+		<Thing
+			Grip="1000"
+			OverheadOffset="400"
+			Graphic="PlayerMediumIdle"
+			FidgetGraphic="PlayerMediumFidget"
+			TouchdownGraphic="PlayerMediumStop"
+			IgnoreTouchdownGraphicAnim="PlayerMediumScorePose"
+			TouchdownSound="/SFX/Player Sounds/NomadLand"
+			ImpulsedAnimation="PlayerMediumSkid"
+			TouchdownRumbleIntensity="0.2"
+			TouchdownRumbleDuration="0.125"
+			>
+		</Thing>
+		<Life
+			DeathGraphic="PlayerMediumBanished"
+			PreReviveAnimation="PlayerMediumRespawn"
+			ReviveFxScale="1.2"
+			>
+		</Life>	
+		<Weapon Name="JumpPhantom"/>
+		<Weapon Name="SprintPhantom"/>
+		<Weapon Name="CastPhantom"/>
+	</Npc>
+</Npcs>
