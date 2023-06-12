@@ -1,0 +1,3 @@
+Import RandomTalismanDraft.lua
+To "Scripts\ItemPurchaseScripts.lua"
+Import RandomTalisman.lua
